@@ -16,8 +16,13 @@ p {
   font-size: 125%;
   font-weight:500;
 }
-
 .gamelist {
+  font-family: Arial, sans-serif;
+  color: #004203;
+  font-size: 125%;
+  font-weight: bold;
+}
+.gamelist+ul {
   font-family: Arial, sans-serif;
   color: #4b0082;
   font-size: 125%;
