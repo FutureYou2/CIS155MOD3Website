@@ -1,30 +1,52 @@
-/******************************************************************************
-#1: use the sample CSS below to point out examples of the following: 
-(1) style rule, (2) declaration, (3) selector, (4) property, and (5) value                          
-*******************************************************************************/
 
-#beautiful {
-  font-family: Cambria;
-  color: #07ff7f;
-  font-size: 20px;
-  margin-left: 20px;
+#title {
+  font-family: Copperplate Gothic Light;
+  color: #000000;
+  text-align: center;
+  font-size: 200%;
 }
-
-.ugly  {
-  font-family: Arial;
+#title::first-letter {
+  color: #000000;
+  font-size: 250%;
+}
+p {
+  font-family: Verdana, sans-serif;
+  color: #333333;
+  font-size: 125%;
+  font-weight:500;
+}
+.gamelist {
+  font-family: Arial, sans-serif;
+  color: #4b0082;
+  font-size: 125%;
+  font-weight: bold;
+}
+ul::first-line {
+  font-family: Arial, sans-serif;
   color: #ff0000;
-  font-size: 10px;
-  margin-left: 10px;
+  font-size: 125%;
+  font-weight: bold;
+}
+ul::nth-line(2) {
+  font-family: Arial, sans-serif;
+  color: #ff0000;
+  font-size: 125%;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff0000;
 }
 
-
-/******************************************************************************
-#2: Find & fix the 3 bugs in the CSS below
-*******************************************************************************/
-
-h1 {
-  font-family: Arial;
-  color: #00ffff;
-  font-size: 20px;
-  margin-left: 20px;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 50%;
+  border: 15px solid #ff9494;
+}
+#rectangle{
+    width:100%;
+    height: 25px;
+    background:rgb(0, 0, 0);
 }
